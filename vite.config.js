@@ -12,5 +12,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/TVTSyn/' : '/',
+  // The old demo is served from /TVTSyn/archive/; the site root redirects to the new website
+  base: process.env.NODE_ENV === 'production' ? '/TVTSyn/archive/' : '/',
+  build: {
+    outDir: 'dist/archive',
+  },
 })
