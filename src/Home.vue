@@ -1,5 +1,20 @@
 <template>
     <div class="min-vh-100 bg-white">
+        <!-- Old Website Notice -->
+        <div class="bg-light border-bottom">
+            <div class="container py-3">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 text-center">
+                    <span class="text-black">
+                        This is an old version of the TVTSyn demo page. Please refer to the new website for the latest
+                        results.
+                    </span>
+                    <a href="https://psi-tamu.github.io/TVTSyn/" class="btn btn-dark btn-sm px-3">
+                        Go to the new website →
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <!-- Paper Header -->
         <div class="border-bottom">
             <div class="container py-5">
